@@ -37,18 +37,34 @@ button{
     color: white;
     background-color:rgb(61, 161, 231)
 }
-.check{
-    color: rgb(89, 184, 159);
+.spunta{
     border-radius: 100%;
-    border: 1px solid rgb(89, 184, 159);
+    border: 1px solid;
     padding: 2px;
+}
+.check{
+    color: rgb(89, 184, 159);  
+}
+.uncheck{
+    color:rgb(232, 81, 74)
+
 }
 .task{
     display: inline-block;
+    font-size: small;
     color: white;
     border-radius: 10px;
     padding: 5px;
 }
 .editorial{
     background-color: rgb(61, 161, 231);
+}
+.q1{
+    background-color: rgb(145, 103, 224);
+}
+.rec{
+    background-color: rgb(89, 184, 159);
+}
+.mb{
+    background-color: rgb(240, 148, 45);
 }
