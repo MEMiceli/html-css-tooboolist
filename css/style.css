@@ -5,6 +5,7 @@
 }
 body{
     background-color: grey;
+    font-family: 'Roboto Slab', serif;
 }
 header{
     padding: 20px;
@@ -13,7 +14,7 @@ header{
 body{
     background-color:rgb(245, 247, 248)
 }
-.logo{
+#logo{
     vertical-align: middle;
 }
 h1{
@@ -25,4 +26,29 @@ h1{
     margin: 0 auto;
     margin-top: 50px;
     background-color: white;
+}
+button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+    color: silver;
+}
+.acqua{
+    color: white;
+    background-color:rgb(61, 161, 231)
+}
+.check{
+    color: rgb(89, 184, 159);
+    border-radius: 100%;
+    border: 1px solid rgb(89, 184, 159);
+    padding: 2px;
+}
+.task{
+    display: inline-block;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.editorial{
+    background-color: rgb(61, 161, 231);
 }
